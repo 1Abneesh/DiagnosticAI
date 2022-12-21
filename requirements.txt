@@ -1,0 +1,7 @@
+numpy
+pickle-mixin
+streamlit
+streamlit-option-menu
+scikit-learn
+protobuf==3.20.1
+Pillow
