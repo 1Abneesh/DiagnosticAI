@@ -93,7 +93,7 @@ if (selected == 'Diabetes Prediction'):
 
 # Heart Disease Prediction Page
 if (selected == 'About'):
-    
+    st.balloons()
     st.title('🧑‍🎓 About us')
     st.header('Mission')
     st.write("We are making various model with high accuracy to predict diseases easily and fast.Our app is free of cost which take various patient data as input and predict what disease patient.our model is trained on verified lab dataset with high accuracy.Currently Diabetes prediction is fully working and many others to come.")
