@@ -118,3 +118,12 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+flag = True
+if st.button('Magic Button'):
+    if flag:
+        st.snow()
+        flag = False
+    else :
+        st.balloons()
+        flag = True
