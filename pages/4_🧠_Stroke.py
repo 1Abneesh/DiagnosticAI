@@ -22,8 +22,8 @@ st.set_page_config(
 
 st.title('Stroke Prediction using ML')
 
-stroke_model = pickle.load(open('heart_stroke1.sav','rb'))
-scaler_stroke = pickle.load(open('scaler_heart1.sav','rb'))
+stroke_model = pickle.load(open('heart_stroke.sav','rb'))
+scaler_stroke = pickle.load(open('scaler_heart.sav','rb'))
 
 
 
