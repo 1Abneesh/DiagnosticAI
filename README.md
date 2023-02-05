@@ -23,16 +23,16 @@ A web application that predicts various diseases based on symptoms and lab tests
 
 ## Installation
 To run the project locally, follow these steps:
-1. Clone the repository to your local machine.
-  git clone https://github.com/1Abneesh/Multiple_Disease_prediction_app.git
-2. Navigate to the project directory:
+1. Clone the repository to your local machine:<br>
+   git clone https://github.com/1Abneesh/Multiple_Disease_prediction_app.git
+2. Navigate to the project directory:<br>
   cd Multiple_Disease_prediction_app
-3. Create a virtual environment and activate it:
-  python3 -m venv venv
+3. Create a virtual environment and activate it:<br>
+  python3 -m venv venv<br>
   source venv/bin/activate
-4. Install the required packages:
+4. Install the required packages:<br>
   pip install -r requirements.txt
-7. Run the app using the following command: 
+7. Run the app using the following command: <br>
   streamlit run app.py
   
 
