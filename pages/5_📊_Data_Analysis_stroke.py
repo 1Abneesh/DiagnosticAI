@@ -31,7 +31,7 @@ st.title('Data analysis of Stroke Data')
 
 st_lottie(lottie_download, key="hello",speed=1, loop=True, quality="medium", width=700,height=400)
 
-df = pd.read_csv('D:\Abneesh ait\AWS AIml\Streamlit app\Datasets\Heart stroke.csv')
+df = pd.read_csv('Datasets\Heart stroke.csv')
 df.drop(columns="id",inplace=True)
 
 st.write('Studying data is amongst the everyday chores of researchers. It’s not a big deal for them to go through hundreds of pages per day to extract useful information from it. However, recent times have seen a massive jump in the amount of data available. While it’s certainly good news for researchers to get their hands on more data that could result in better studies, it’s also no less than a headache.')
