@@ -95,8 +95,9 @@ div.stButton > button:active {
 
 def open_search(search_term):
     webbrowser.open(f"{search_term}")
-
-st.title("Flower Classifier")
+col1,  col2,col3 = st.columns([1.2,2,1])
+with col2:
+    st.title("VisionAi")
 
 st_lottie(lottie_download, key="hello",speed=1, loop=True, quality="medium", width=700,height=400)
 st.write("This is a flower classification app based on the pretrained VGG19 model. It can classify 102 different species of flowers.")
