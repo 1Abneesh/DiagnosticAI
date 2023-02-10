@@ -119,10 +119,13 @@ st.write('')
 st.write('')
 st.header("Contact Us")
 st.write("For any inquiries or questions, please contact us at 01abneeshkumar@gmail.com.")
-
+search_link = f"https://1abneesh-visionai--visionai-hft1ud.streamlit.app/"
 st.write("")
 if st.button('VisionAI'):
     open_search('https://visionai.onrender.com')
+
+st.write('click on the link if button does not work')
+st.markdown(f"[Search]({search_link})", unsafe_allow_html=True)
 
 #applying css
 def local_css(file_name):
