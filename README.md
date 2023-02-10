@@ -1,4 +1,7 @@
 # Multiple Disease Prediction App
+<p align="center">
+  <img src="logo1.png">
+</p>
 A web application that predicts various diseases based on symptoms and lab tests using machine learning models. The app is built using the Streamlit framework in Python and has a user-friendly interface that allows users to enter their symptoms and get predictions in real-time.
 
 ## Table of Contents
